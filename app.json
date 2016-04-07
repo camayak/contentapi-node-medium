@@ -1,9 +1,22 @@
 {
   "name": "camayak-medium",
   "description": "A Camayak to Medium publishing integration.",
+  "website": "http://camayak.com/",
+  "repository": "https://github.com/camayak/contentapi-medium-node",
   "keywords": [
     "Camayak",
     "Medium",
     "Publishing"
-  ]
+  ],
+  "env": {
+    "CAMAYAK_API_KEY": {
+      "description": "Your Camayak content api publishing destination api_key"
+    },
+    "CAMAYAK_SHARED_SECRET": {
+      "description": "Your Camayak content api publishing destination shared_secret, if you have one"
+    },
+    "MEDIUM_API_KEY": {
+      "description": "Your Medium account's Integration tokens for this integration"
+    }
+  }
 }
