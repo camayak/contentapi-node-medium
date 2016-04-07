@@ -1,0 +1,23 @@
+{
+  "name": "camayak-medium",
+  "version": "0.0.1",
+  "description": "A Camayak to Medium publishing integration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development node index.js",
+    "start-production": "NODE_ENV=production node index.js",
+    "start-debug": "NODE_ENV=development node --debug index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Camayak",
+    "Medium",
+    "Publishing"
+  ],
+  "author": "Edward Smith",
+  "license": "MIT",
+  "dependencies": {
+    "camayak-contentapi": "git@github.com:camayak/camayak-contentapi-node.git",
+    "medium-sdk": "0.0.3"
+  }
+}
