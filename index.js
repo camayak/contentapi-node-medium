@@ -9,6 +9,7 @@ const port          = process.env.PORT || 5000;
 
 // Proposed usage of a Camayak-contentapi sdk
 let camayak = new CamayakContentAPI({
+    port: port,
     api_key: api_key,
     shared_secret: shared_secret,
     publish: function(webhook, content) {
