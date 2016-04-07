@@ -18,7 +18,7 @@
   "author": "Edward Smith",
   "license": "MIT",
   "dependencies": {
-    "camayak-contentapi": "git@github.com:camayak/camayak-contentapi-node.git",
+    "camayak-contentapi": "",
     "medium-sdk": "0.0.3"
   }
 }
