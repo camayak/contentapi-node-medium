@@ -5,6 +5,7 @@ const CamayakMedium     = require('./lib/camayak_medium');
 const api_key       = process.env.CAMAYAK_API_KEY;
 const shared_secret = process.env.CAMAYAK_SHARED_SECRET;
 const medium_key    = process.env.MEDIUM_API_KEY;
+const port          = process.env.PORT || 5000;
 
 // Proposed usage of a Camayak-contentapi sdk
 let camayak = new CamayakContentAPI({
